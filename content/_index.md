@@ -26,7 +26,7 @@ In this workshop, you will learn how to:
 
 Executing this workshop to completion does not require any specific skills. The insights provided by CAST Highlight cover the spectrum from developers (code insightsa and cloud blockers) through CIOs (portfolio advisors) therefore some of the feedback will be more relevant to those with some programming experience.  
 
-## Workshop Agenda and resrouces
+## Workshop Agenda and resources
 
 1. Introduction 
 2. Onboard 2 sample applications into a CAST Highlight sandbox 
