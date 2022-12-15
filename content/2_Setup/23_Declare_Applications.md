@@ -27,7 +27,10 @@ You can give it a name and set yourself as a Contributor (or leave the ***Contri
 
 And you'll see the application added to the list of apps.
 
-Once this is done for the two applications, we can create our campaign.
+Now we can follow the same procedure for the *jAlbum* application:
+![...and another new app](/images/Declare-9.png)
+
+Now that we have declared our two applications, we can create our campaign.
 
 ## Launching the campaign
 Click on the ***APPLICATION SCANS*** and you'll reach the campaign management page. From there, click on the ***Launch a new Campaign*** button and follow the Wizard:
