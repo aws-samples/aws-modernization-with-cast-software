@@ -21,9 +21,25 @@ If your machine is not Windows-based, we can quickly spin one up on EC2. A compl
 - Launching a fresh instance (we recommend using the *Microsoft Windows Server 2019 Base* AMI of type *t3.large*)
 - Creating a private key (.pem) file
 - Decrypting the administrator password
-- RDPing to the machine and installing your favourite browser.
+- RDPing to the machine 
+- Installing your favourite browser. We suggest to use Chrome. Here's how you can install it on the EC2 instance:
+	- Open Internet Explorer and click on the little cogwheel in the top right.
+	- Select ***Internet Options***
+	![Internet Options](/images/Chrome-1.png)
+	- Then go to the ***Security*** tab and click on ***Custom level...***
+	![Security Tab](/images/Chrome-2.png)
+	- Scroll down to ***Downloads*** (it's about in the middle) and change the ***File download*** setting to ***Enable***
+	![Security Settings](/images/Chrome-3.png)
+	- Click on ***OK***, validate the warning, then click on ***OK***.
+	- You may now paste this URL in the address bar: http://dl.google.com/chrome/install/149.27/chrome_installer.exe
+	- You should accept the download and run it. After a few seconds, you'll be staring at a chrome welcome window.
+	![Chrome Installed](/images/Chrome-4.png)
 
-Then you should copy the applications to scan onto the EC2 instance, and from there log in to your freshly minted account at https://demo.casthighlight.com where you'll proceed to the next step.
+Now, you should copy the applications to scan onto the EC2 instance. Here are direct links to download the code zips from your freshly-installed browser:
+- https://github.com/harismuneer/Flight-Booking-System-JavaServlets_App/archive/refs/heads/master.zip
+- https://github.com/shentar/jAlbum/archive/refs/heads/master.zip
+
+And now that we have everything ready, you can log in to your freshly minted account at https://demo.casthighlight.com where you'll proceed to the next step.
 ![Highlight Portal in an EC2 Instance](/images/Install-3.png)
 
 ## Downloading the Agent
